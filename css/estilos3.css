@@ -1,0 +1,42 @@
+.pie-pagina{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px ;
+}
+#parrafo1{
+    font-size: 30px;
+    color: green;
+
+}
+#comentario1{
+    text-align: right;
+}
+p,h1,li{
+    color: aquamarine;
+}
+hgroup h1{
+    color: peru;
+}
+article>p{
+    font-size: 10px;
+    color: blueviolet;;
+}
+img+p{
+    border: 5px dashed black;
+}
+li:nth-child(2){
+    font-size: 40px;
+}
+p:hover{
+    color: aqua;
+}
+a:visited{
+    color: red;
+}
+a:link{
+    color: cadetblue;
+}
+p::first-letter{
+    color: blue;
+    font-size: 80px;
+}
